@@ -5,7 +5,7 @@ import { Sidebar } from "../components";
 const Main = () => {
   return (
     <main id='main'>
-      <div className='flex w-full'>
+      <div className='flex w-full '>
         <Sidebar />
         <div className='content w-full mx-10'>
           <Routes>

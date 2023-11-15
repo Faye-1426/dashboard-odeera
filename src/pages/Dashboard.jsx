@@ -1,11 +1,13 @@
-import { Chart } from "../components";
+import { useLocation } from "react-router-dom";
+import { Chart, Header } from "../components";
 import { Container } from "../layouts";
 
 const Dashboard = () => {
   return (
     <Container className='h-[200vh]'>
-      <div>/path</div>
-      <h1>Judul Visualisasi</h1>
+      <section className='pt-5'>
+        <Header title='Dashboard' subtitle='Hasil visualisasi dan analisis dari kasus yang kami angkat!' />
+      </section>
       <section>
         <Chart />
       </section>

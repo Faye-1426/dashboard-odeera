@@ -4,7 +4,7 @@ import { FiBookOpen, FiFilePlus } from "react-icons/fi";
 
 const Sidebar = () => {
   return (
-    <aside className='sidebar h-screen bg-white sticky top-0 w-max px-5 border-r-neutral-300 border'>
+    <aside className='sidebar h-screen bg-white sticky top-0 w-max px-5 border-r-neutral-300 border '>
       <div className='w-full py-4 mb-6 border-b'>
         <Link to='/dashboard' className='text-2xl font-bold text-[#5200FF]'>
           Odeera
