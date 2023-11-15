@@ -2,11 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "InterBL";
+  src: local("Inter"), url("./fonts/inter/Inter-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterLi";
+  src: local("Inter"), url("./fonts/inter/Inter-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterRg";
+  src: local("Inter"), url("./fonts/inter/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterMd";
+  src: local("Inter"), url("./fonts/inter/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterSb";
+  src: local("Inter"),
+    url("./fonts/inter/Inter-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterBo";
+  src: local("Inter"), url("./fonts/inter/Inter-Bold.ttf") format("truetype");
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "InterRg";
 }
 
 html {
