@@ -6,14 +6,14 @@ const Sidebar = () => {
   return (
     <aside className='sidebar h-screen bg-white sticky top-0 w-max px-5 border-r-neutral-300 border '>
       <div className='w-full py-4 mb-6 border-b'>
-        <Link to='/dashboard' className='text-2xl font-bold text-[#5200FF]'>
+        <Link to='/' className='text-2xl font-bold text-[#5200FF]'>
           Odeera
         </Link>
       </div>
 
       <p className='text-sm text-slate-400'>Main Menu</p>
       <ul className='navlist w-52'>
-        <Link to='/dashboard'>
+        <Link to='/'>
           <li className='hover:bg-slate-100 px-3 py-2 rounded-md text text-base flex items-center gap-3'>
             <RiHome6Line />
             Dashboard
